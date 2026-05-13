@@ -7,16 +7,12 @@
 :root {
     /* ========== Colour Palette ========== */
     /* Primary Earth-Inspired Colours */
-    --color-primary: #6b705c;    /* Stone (primary UI colour) */
-    --color-secondary: #a5a58d;  /* Sand (backgrounds, inputs) */
-    --color-tertiary: #b7b7a4;   /* Clay (surface neutral) */
+    --color-primary: #000000;    /* Stone (primary UI colour) */
+    --color-secondary: #272727;  /* Sand (backgrounds, inputs) */
+    --color-tertiary: #888888;   /* Clay (surface neutral) */
 
-    /* Accent & Feedback Colours */
-    --color-accent: #588157;     /* Moss Green (buttons, links) */
-    --color-highlight: #f4a261;  /* Warm Orange (attention, highlights) */
-    --color-success: #81b29a;    /* Soft Jade */
-    --color-warning: #f2cc8f;    /* Honey Beige */
-    --color-error: #e76f51;      /* Terracotta Red */
+    --color-background: #9c8954;  /* Warm Orange (attention, highlights) */
+    --color-border: #c2ab45;      /* Subtle earthy border */
 
     /* Neutral Greys for Text and UI */
     --text-primary: #1e1e1e;      /* Main text */
@@ -25,7 +21,7 @@
     --text-contrast: #ffffff;    /* Light text on dark backgrounds */
 
     /* Backgrounds & Surfaces */
-    --color-background: #fefae0; /* Light parchment background */
+    --color-background: #9b9b9b; /* Light parchment background */
     --color-surface: #f5f5f0;    /* Panels, cards */
     --color-border: #dcdccf;     /* Subtle earthy border */
     --color-overlay: rgba(0, 0, 0, 0.25);
@@ -39,15 +35,6 @@
     --button-disabled-bg: #ddd;
     --button-disabled-text: #888;
     --button-disabled-border: #ccc;
-
-    /* Gradient (for headers, accents, or transitions) */
-    --gradient-brand: linear-gradient(
-        90deg,
-        var(--color-primary),
-        var(--color-accent),
-        var(--color-success),
-        var(--color-highlight)
-    );
 
     /* Shadows – natural and soft */
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -74,6 +61,7 @@
     --font-lg: 1.25rem;
     --font-xl: 1.5rem;
     --font-xxl: 2rem;
+    --font-xxxl: 8rem;
 
     /* ========== Radius, Spacing & Motion ========== */
     --radius-sm: 4px;

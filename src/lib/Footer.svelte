@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2025 Starter Kit. Inspired by mindful design and resilient development.</p>
+    <p></p>
 </footer>
 
 
@@ -16,7 +16,6 @@
         box-shadow: var(--shadow-sm);
         position: relative;
         z-index: 10;
-        animation: fadeInFooter var(--transition-slow) ease-in-out;
     }
 
     .footer::before {
@@ -26,8 +25,6 @@
         left: 0;
         height: 3px;
         width: 100%;
-        background: var(--gradient-brand);
-        animation: gradientScroll 6s linear infinite;
     }
 
     @keyframes fadeInFooter {

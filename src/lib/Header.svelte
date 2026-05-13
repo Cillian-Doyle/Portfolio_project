@@ -6,8 +6,8 @@
 
 <header class="header">
     <div class="logo-area">
-        <img src={asset("/logo.png")} alt="Starter Kit Logo" />
-        <h1>Starter Kit</h1>
+        <img src={asset("/logo.png")} alt="Portfolio Logo" />
+        <h1>Portfolio</h1>
     </div>
     <Navigation />
 </header>
@@ -44,12 +44,11 @@
         margin: 0;
         font-size: var(--font-xxl);
         font-weight: 700;
-        background: var(--gradient-brand);
+        background: black;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         line-height: 1;
-        animation: fadeInTitle 0.6s ease forwards;
     }
 
     @keyframes fadeInTitle {

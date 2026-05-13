@@ -4,16 +4,16 @@
 
 
 <div class="container">
-    <h1 class="splash-text">Lets Get To Designing</h1>
+    <h1 class="splash-text">Contact Me!</h1>
 
     <table class="items">
         <tbody>
             <tr>
-                <td><a href="/about">About Me</a>
-                <p>Learn about me, how i think <br>and my experiences</p></td>
-                <td><a href="/work">My Work</a>
-                <p> See my work, my process<br>and how i design things.<br>Get a view into me as a creative<br>and see what type of work i can provide</p></td>
-                <td><a href="/contact">Contact Me</a>
+                <td><h3> c00311110@setu.ie </h3>
+                <p>Email me to get in contact!</p></td>
+                <td><h3> LinkedIn </h3>
+                <p>Find me on LinkedIn to see my work experience<br> and connect with me professionally</p></td>
+                <td><h3> 083 xxx xxxx </h3>
                 <p>Get in touch with me<br>to discuss potential projects<br>or ask further about my work</p></td>
             </tr>
         </tbody>
@@ -50,13 +50,13 @@
     border: 25px solid var(--color-border);
     border-radius: var(--radius-sm);
 }
-.items td a {
+.items td h3 {
     color: var(--text-primary);
     text-decoration: none;
     font-weight: 750;
     font-size: larger;
 }
-.items td a:hover {
+.items td h3:hover {
     color: var(--color-tertiary);
 }
 </style>
