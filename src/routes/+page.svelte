@@ -1,5 +1,5 @@
 <script>
-    // No script needed for this page
+    import { base } from '$app/paths';
 </script>
 
 
@@ -9,11 +9,11 @@
     <table class="items">
         <tbody>
             <tr>
-                <td><a href="/about">About Me</a>
+                <td><a href='{base}/about'>About Me</a>
                 <p>Learn about me, how i think <br>and my experiences</p></td>
-                <td><a href="/work">My Work</a>
+                <td><a href='{base}/work'>My Work</a>
                 <p> See my work, my process<br>and how i design things.<br>Get a view into me as a creative<br>and see what type of work i can provide</p></td>
-                <td><a href="/contact">Contact Me</a>
+                <td><a href='{base}/contact'>Contact Me</a>
                 <p>Get in touch with me<br>to discuss potential projects<br>or ask further about my work</p></td>
             </tr>
         </tbody>
