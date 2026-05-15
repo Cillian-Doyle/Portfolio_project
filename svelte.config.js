@@ -22,8 +22,7 @@ const config = {
 
     // Important for GitHub Project Pages
     paths: {
-      base: basePath,
-      assets: basePath
+      base: basePath
     }
   }
 };
