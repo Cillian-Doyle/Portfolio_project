@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 
+const basePath = process.env.BASE_PATH || '/Portfolio_project';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
@@ -20,7 +22,8 @@ const config = {
 
     // Important for GitHub Project Pages
     paths: {
-      base: process.env.BASE_PATH || '/Portfolio_project'
+      base: basePath,
+      assets: basePath
     }
   }
 };

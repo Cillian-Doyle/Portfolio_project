@@ -33,7 +33,7 @@ jobs:
       - name: Build site
         env:
           # BASE_PATH used by build script to set the correct public path
-          BASE_PATH: '/${{ github.event.repository.name }}'
+          BASE_PATH: '/Portfolio_project'
         run: npm run build      # execute build command defined in package.json
 
       - name: Upload build artefacts

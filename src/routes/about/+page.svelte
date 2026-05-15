@@ -5,7 +5,7 @@
 
 <div class="container">
     <h2 class="page-title"> Who am I?</h2>
-    <img class="profile" src="{asset("/Photo-of-me.jpg")}">
+    <img class="profile" src="{asset("/Photo-of-me.jpg")}" alt="Portrait of Cillian Doyle">
     <p class="first-part"> You're probably thinking "God why is such a talented, intellectual, god like person who is definetly the greatest at 
         spelling makings a portfolio".... no? just me? <br><br>Jokes aside my name is Cillian Doyle, i am currently 20 years old and my dream is a simple one,
     to make people smile, think and grow with the art and stories i create. i hope to become a 2d and 3d artist, primarily as an animator.
