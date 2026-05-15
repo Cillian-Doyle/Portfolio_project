@@ -22,7 +22,7 @@ const config = {
 
     // Important for GitHub Project Pages
     paths: {
-      base: basePath
+      base: '/Portfolio--Cillian-Doyle'
     }
   }
 };
