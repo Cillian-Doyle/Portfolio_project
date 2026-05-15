@@ -2,6 +2,9 @@
     // Import components
     import Header from "$lib/Header.svelte";
     import Footer from "$lib/Footer.svelte";
+    import { asset } from '$app/paths';
+
+    const backgroundImage = asset('/background.jpg');
 </script>
 
 
@@ -10,7 +13,7 @@
     <Header />
 
     <!-- Page Content -->
-    <main id="main-content" tabindex="-1">
+    <main id="main-content" tabindex="-1" style="--background-image: url({backgroundImage});">
         <slot />
     </main>
 
@@ -48,8 +51,9 @@
         bottom: 0;
         min-height: 100%;
         width: 100%;
-        background-repeat: repeat-y; /* or 'no-repeat' for full image */
-        background-size: cover;      /* or 'contain' if you want it less aggressive */
+        background-image: var(--background-image);
+        background-repeat: no-repeat;
+        background-size: cover;
         background-position: center top;
         opacity: 0.66;
         z-index: -1;

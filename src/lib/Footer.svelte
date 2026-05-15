@@ -1,13 +1,16 @@
 <footer class="footer">
-    <p></p>
+    <p>Email: example@example.com</p>
+    <p>Phone: 123-456-7890</p>
+    <p>LinkedIn: </p>
+    <p>© 2026 Cillian Doyle. All rights reserved.</p>   
 </footer>
 
 
 <style>
     .footer {
         width: 100%;
-        padding: var(--space-md);
-        text-align: center;
+        padding: var(--space-sm);
+        text-align: left;
         font-family: var(--font-body);
         font-size: var(--font-sm);
         color: var(--text-tertiary);
@@ -16,6 +19,10 @@
         box-shadow: var(--shadow-sm);
         position: relative;
         z-index: 10;
+    }
+
+    .footer p {
+        margin: 0.25rem 0;
     }
 
     .footer::before {
@@ -39,7 +46,7 @@
 
     @media (max-width: 768px) {
         .footer {
-            padding: var(--space-sm);
+            padding: var(--space-xs);
             font-size: var(--font-xs);
         }
     }
