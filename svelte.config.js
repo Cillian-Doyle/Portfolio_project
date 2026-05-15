@@ -1,28 +1,23 @@
 import adapter from '@sveltejs/adapter-static';
 
-const basePath = process.env.BASE_PATH || '/Portfolio_project';
-
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
     adapter: adapter({
-      // Output directory for built files
       pages: 'build',
       assets: 'build',
-      
-      // Fallback page for client-side routing
-      fallback: '404.html',
-      
-      // Don't precompress files (GitHub Pages handles this)
       precompress: false,
-      
-      // Fail build if routes aren't prerendered
       strict: true
     }),
 
-    // Important for GitHub Project Pages
+    // MUST match GitHub repo name exactly
     paths: {
       base: '/Portfolio'
+    },
+
+    // REQUIRED for GitHub Pages static output
+    prerender: {
+      default: true
     }
   }
 };
