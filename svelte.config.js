@@ -14,11 +14,6 @@ const config = {
     paths: {
       base: '/Portfolio'
     },
-
-    // REQUIRED for GitHub Pages static output
-    prerender: {
-      default: true
-    }
   }
 };
 
